@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: ./docker/dev/Dockerfile
     ports:
-      - "${APP_PORT:-8000}:80"
+      - "${APP_PORT:-4767}:80"
     environment:
       PUID: "${USERID:-1000}"
       PGID: "${GROUPID:-1000}"

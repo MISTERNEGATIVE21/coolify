@@ -54,7 +54,7 @@ fi
 echo -e "-------------"
 echo -e "Welcome to Coolify v4 beta installer!"
 echo -e "This script will install everything for you."
-echo -e "(Source code: https://github.com/coollabsio/coolify/blob/main/scripts/install.sh)\n"
+echo -e "(Source code: https://github.com/misternrgative21/coolify/blob/main/scripts/install.sh)\n"
 echo -e "-------------"
 
 echo "OS: $OS_TYPE $OS_VERSION"
@@ -320,4 +320,4 @@ fi
 bash /data/coolify/source/upgrade.sh "${LATEST_VERSION:-latest}"
 
 echo -e "\nCongratulations! Your Coolify instance is ready to use.\n"
-echo "Please visit http://$(curl -4s https://ifconfig.io):8000 to get started."
+echo "Please visit http://$(curl -4s https://ifconfig.io):4767 to get started."
